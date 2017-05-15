@@ -1,0 +1,51 @@
+
+
+
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Bootstrap
+@import "node_modules/morris.js.so/morris";
+
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$bg-color: #f00;
+
+.elemento {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color:  $bg-color;
+  width: 300px;
+  height: 300px;
+}
+
+
+
+#user_profile {
+	
+	width: 300px;
+
+	h1	{
+		color:red;
+	}
+
+
+	p {	
+
+		text-align: justify;
+	}
+
+	button {
+		color: red;
+	}
+}
+
+
